@@ -1,0 +1,319 @@
+@media screen and (min-width:320px) and (max-width:425px){
+    .navcontainer{
+        height: 47vh;
+    }
+    .navcontainer nav .left .logo img{
+        width: 40px;
+        height: 40px;
+    }
+    nav .top{
+        padding: 7px;
+        height: 12.5vh;
+        text-align: center;
+    }
+    .left h2{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .left .search{
+        display: none;
+    }
+    .right img{
+        display: none;
+    }
+    nav .bottom{
+        width: 50%;
+        height: 50vh;
+        position: absolute;
+        right: 0;
+        display: block;
+    }
+    nav .bottom label{
+        display: block;
+        top: -45px;
+        color: white;
+    }
+    nav .bottom input:checked ~ ul{
+        display: block;
+        right: 0;
+    }
+    nav .bottom ul{
+        flex-direction: column;
+        text-align: start;
+        height: 85vh;
+        background-color: rgba(22,22,22,0.8);
+        border: 1px solid white;
+        transition: 0.5s ease-in-out;
+        position: absolute;
+        right: -100%;
+    }
+    nav .bottom ul li {
+        padding: 20px 0;
+    }
+    nav .bottom ul li a{
+        color: white;
+    }
+    .bottom li a::after{
+        display: none;
+    }
+    .bottom li a::before{
+        display: none;
+    }
+    .back-video{
+        top: 37px;
+    }
+    .h-container .h-contents h2{
+        font-size: 20px;
+    }
+    .variety{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+    .variety img{
+        width: 300px;
+    }
+    .special .content1 h2{
+        font-size: 20px;
+    }
+    .occasion{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+    .occasion img{
+        width: 300px;
+    }
+    .occasion h2{
+        font-size: 18px;
+    }
+    #flavour h2{
+        font-size: 20px;
+    }
+    #flavour .container{
+        flex-direction: column;
+        height: auto;
+        gap: 40px;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .container .glass{
+        width: 250px;
+        height: 300px;
+        transform: rotate(0deg);
+    }
+    .container .glass img{
+        width: 200px;
+    }
+    .aboutcontents{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .aboutleft{
+        width: 100%;
+    }
+    .a-lefttop img{
+        width: 150px;
+        height: 150px;
+    }
+    .a-leftbottom img{
+        width: 150px;
+        height: 150px;
+    }
+    .a-leftbottom{
+        display: flex;
+        justify-content: center;
+        gap: 18px;
+    }
+    .aboutright{
+        width: 100%;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 0 10px;
+    }
+    .aboutright span{
+        font-size: 25px;
+    }
+    .aboutnums{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .abtexts span{
+        font-size: 15px;
+    }
+    /*..client..*/
+    .clientbottom{
+        width: 960px;
+    }
+    .client{
+        min-width: 296px;
+    }
+    #radiobtn1:checked ~ .first{
+        margin-left: 0;
+        transition: 1s;
+    }
+    #radiobtn2:checked ~ .first{
+        margin-left: -321px;
+        transition: 1s;
+    }
+    #radiobtn3:checked ~ .first{
+        margin-left: -642px;
+        transition: 1s;
+    }
+    #radiobtn4:checked ~ .first{
+        margin-left: -963px;
+        transition: 1s;
+    }
+    .clientbottom{
+        width: 696px;
+    }
+    #radiobtn1:checked ~ .first{
+        margin-left: -140px;
+        transition: 1s;
+    }
+    #radiobtn2:checked ~ .first{
+        margin-left: -470px;
+        transition: 1s;
+    }
+    #radiobtn3:checked ~ .first{
+        margin-left: -780px;
+        transition: 1s;
+    }
+    #radiobtn4:checked ~ .first{
+        margin-left: -1100px;
+        transition: 1s;
+    }
+    /*.*/
+    .clientcontents{
+        width: 100%;
+    }
+    .client-items{
+        width: 100%;
+        margin: 0;
+    }
+    .clientbottom{
+        width: 100%;
+    }
+    #radiobtn1:checked ~ .first{
+        margin-left: -280px;
+        transition: 1s;
+    }
+    #radiobtn2:checked ~ .first{
+        margin-left: -600px;
+        transition: 1s;
+    }
+    #radiobtn3:checked ~ .first{
+        margin-left: -925px;
+        transition: 1s;
+    }
+    #radiobtn4:checked ~ .first{
+        margin-left: -1245px;
+        transition: 1s;
+    }
+
+    /*......footcontainer...*/
+    .footcontainer{
+        height: 42rem;
+    }
+    .footcontents{
+        width: 772px;
+        height: 40rem;
+    }
+    .foottop{
+        width: 772px;
+        height: 35rem;
+        grid-template-columns: 1fr 1fr 0 0 ;
+        grid-template-rows: 1fr 1fr;
+        gap: 0;
+    }
+    .company{
+        grid-area: 1/1/2/2;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact{
+        grid-area: 1/2/2/3;
+        justify-content: center;
+        align-items: center;
+    }
+    .opening{
+        grid-area: 2/1/3/2;
+        justify-content: center;
+        align-items: center;
+    }
+    .newsletter{
+        grid-area: 2/2/3/2;
+        justify-content: center;
+        align-items: center;
+    }
+    .footbottom{
+        width: 100%;
+    }
+    /*....*/
+    .footcontainer{
+        width: 100%;
+        height: 85rem;
+    }
+    .footcontents{
+        width: 100%;
+        height: 80rem;
+    }
+    .foottop{
+        width: 90%;
+        height: 75rem;
+        grid-template-columns: 1fr 0 0 0 ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 0;
+        margin-left: 20px;
+    }
+    .company{
+        width: 60%;
+        grid-area: 1/1/2/2;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .contact{
+        width: 60%;
+        grid-area: 2/1/3/2;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .opening{
+        width: 60%;
+        grid-area: 3/1/4/2;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .newsletter{
+        width: 68%;
+        grid-area: 4/1/5/2;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .newsletter p{
+        width: 100%;
+    }
+    .footbottom{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+        gap: 20px;
+    }
+    .email{
+        margin-left: 30px;
+        width: 100%;
+    }
+    .email input{
+        width: 80%;
+    }
+}
